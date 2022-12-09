@@ -5,8 +5,8 @@ import Topbar from './scenes/global/Topbar';
 import Sidebar from './scenes/global/Sidebar';
 import Dashboard from './scenes/dashboard';
 import Team from './scenes/team';
-// import Invoices from './scenes/Invoices';
-// import Contacts from './scenes/Contacts';
+import Invoices from './scenes/invoices';
+import Contacts from './scenes/contacts';
 // import Bar from './scenes/Bar';
 // import Form from './scenes/Form';
 // import Line from './scenes/Line';
@@ -29,8 +29,8 @@ function App() {
               <Routes>
                 <Route path = '/' element = {<Dashboard />} />
                 <Route path = '/team' element = {<Team />} />
-                {/* <Route path = '/Invoices' element = {<Invoices />} /> */}
-                {/* <Route path = '/Contacts' element = {<Contacts />} /> */}
+                <Route path = '/Invoices' element = {<Invoices />} />
+                <Route path = '/contacts' element = {<Contacts />} />
                 {/* <Route path = '/Bar' element = {<Bar />} /> */}
                 {/* <Route path = '/Form' element = {<Form />} /> */}
                 {/* <Route path = '/Line' element = {<Line />} /> */}
